@@ -10,8 +10,8 @@ test('Login Fail with incorrect user name + password', async ({ page }) => {
     // await page.pause()
     //Login with incorrect user nam + password
     await Login.Signin('abcd@getMaxListeners.com', '123456')
-   
+    await Login.ErrorMes.isVisible()
 
 
-await browser.close();
+
 })

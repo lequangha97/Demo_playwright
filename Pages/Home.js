@@ -23,8 +23,8 @@
     await this.username_box.fill(username)
     await this.password_box.fill(password)
     await this.Login_btn.click()
-    await this.ErrorMes.isVisible()
-    await this.LogoHome.click
+    // await this.ErrorMes.isVisible()
+  //   await this.LogoHome.click
   }
 
 }
