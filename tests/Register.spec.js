@@ -5,7 +5,7 @@ import { RegisterPage } from '../Pages/Register'
 
 
 
-test('Login passed with correct with valid user name + password', async({page})=>{
+test('Register new User', async({page})=>{
 
     const SignUp = new RegisterPage (page)
 
@@ -14,7 +14,7 @@ test('Login passed with correct with valid user name + password', async({page})=
     // await page.pause()
   
     //Login with correct user name + password 
-    await SignUp.SignUp('Le','QA','leQA@gmail.com', 'abc@123456')
+    await SignUp.SignUp('New','User2','User2@gmail.com', 'abc@123456')
 
 
 
